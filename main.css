@@ -1,0 +1,45 @@
+.game_container {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 150px;
+  width: 100px;
+  display: inline-block;
+  background: #fffdd0;
+  border: 1px solid black;
+  position: relative;
+}
+
+.block {
+  margin: 0 auto;
+}
+
+.block--small {
+  background: red;
+  height: 15px;
+  width: 15px;
+}
+
+.block--med {
+  background: blue;
+  height: 15px;
+  width: 30px;
+}
+
+.block--large {
+  background: green;
+  height: 15px;
+  width: 45px;
+}
+
+.blocks-container {
+  position: absolute;
+  bottom: 0;
+  margin-left: 15px;
+}
+
+.block--selected {
+  border: 2px solid black;
+}
